@@ -42,5 +42,5 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "aluminium:aluminium_ingot 9",
 	type = "shapeless",
-	recipe = "aluminium:aluminium_block"
+	recipe = {{"aluminium:aluminium_block"}}
 })
