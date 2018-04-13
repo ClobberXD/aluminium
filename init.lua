@@ -12,6 +12,7 @@ minetest.register_craft({
 minetest.register_node("aluminium:stone_with_aluminium",{
 	description = "Aluminium Ore",
 	tiles = {"default_stone.png^aluminium_mineral_aluminium.png"},
+	is_ground_content = true,
 	groups = {cracky = 2},
 	drop = "aluminium:aluminium_lump",
 	sounds = default.node_sound_stone_defaults()
