@@ -45,3 +45,15 @@ minetest.register_craft({
 	type = "shapeless",
 	recipe = {"aluminium:aluminium_block"}
 })
+
+-- For mapgen
+minetest.register_ore({
+	ore_type = "scatter",
+	ore = "aluminium:stone_with_aluminium",
+	wherein = "default:stone",
+	clust_scarcity = 15 * 15 * 15,
+	clust_num_ores = 20,
+	clust_size = 5,
+	y_max = -32,
+	y_min = -31000,
+})
